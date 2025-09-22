@@ -1,18 +1,19 @@
-import { useState } from "react";
 import '../styles/logincard.css'
 
 function Logincard() {
-    const [EmailDigitado, setEmailDigitado] = useState('')
-    const [senhaDigitada, setSenhaDigitada] = useState('')
 
     return (
-        <div className="containerlogincard">
+        <div className="Containercardlogin">
+        <div className="bordacardlogin">
+        <div className="containerlogin">
         <form onChange={(e) => {e.defaultPrevented()}}>
-        <input placeholder="Digite seu email" value={EmailDigitado} className="emaillogin"></input>
-        <input placeholder="Digite sua senha" value={senhaDigitada} className="senhalogin"></input>
+        <input placeholder="Digite seu email" className="emaillogin" type='email'></input>
+        <input placeholder="Digite sua senha" className="senhalogin" type='password'></input>
         <button type="submit" className="botaologin">login</button>
-        <button className="Ess">Esqueceu sua senha?</button>
+        <button type='submit' className="Ess">Esqueceu sua senha?</button>
         </form>
+        </div> {/* Container login */}
+        </div> {/* Bordacardlogin */}
         </div>
     )
 }

@@ -1,9 +1,10 @@
 import '../styles/card.css'
-import Logincard from "./logincard";
+import Navbar from './navbar';
 import Profileinfo from "./profileinfo";
 
 function Card() {
-    return(
+    return (
+
     <div className="containercard">
         <div className="bordacard">
 
@@ -16,15 +17,12 @@ function Card() {
         </div> {/* cimacard */}
 
         <div className="baixocard">
-        <div className="login">
-        <Logincard/>
-        </div> {/* login */}
-
         </div> {/* baixocard */}
 
         </div> {/* bordacard */}
 
         </div>
+
     )
 }
 

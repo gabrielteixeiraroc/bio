@@ -6,27 +6,47 @@
 
 .bordaprofileinfo {
     display: flex;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     width: 30vw;
+    border: 1px solid #ff00d4 ;
 }
 
+
+.Cimacardp {
+    display: flex;
+    align-items: center;
+    height: 30vh;
+    width: 30vw;
+    border: 1px solid #22ff00;
+}
+
+.Mediocardp {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 30vw;
+    border: 1px solid #0967ff;
+}
 
 .Baixocardp {
     display: flex;
     flex-direction: column; 
     align-items: center;    
-    width: 100%;            
+    width: 30vw;
+    height: 50vh;            
     gap: 15px;             
     padding: 20px;         
     box-sizing: border-box;
+    border: 1px solid #ff0000;
 }
 
 
 .Baixocardp button {
     display: flex; 
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     width: 90%; 
     max-width: 400px; 
     padding: 12px;
@@ -38,4 +58,39 @@
     font-weight: bold;
     cursor: pointer;
     gap: 10px; 
+}
+
+.primeiralinha {
+    display: flex;
+    align-items: center;
+}
+
+.containernomeefuncao svg {
+    height: 5vh;
+    width: 10vw;
+}
+
+.containernomeefuncao button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background-color: #4d20b2;
+    color: white;
+    border: 2px solid #000000; 
+    border-radius: 9999px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.containernomeefuncao button:hover {
+    background-color: #6135d4; 
+    transform: scale(1.03); 
+}
+
+.containernomeefuncao button:active {
+    transform: scale(0.98);
 }

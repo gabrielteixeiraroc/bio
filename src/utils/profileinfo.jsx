@@ -1,4 +1,5 @@
 import '../styles/profileinfo.css'
+import { ReactComponent as Creditcard } from '../iconcreditcard/credit-card.svg'
 
 function Profileinfo() {
     return (
@@ -8,11 +9,17 @@ function Profileinfo() {
 
             <div className='Cimacardp'>
 
+            <div className='containerprofileinfop'>
+
             <div className="fotoprofileinfo">
-                    <img src="/fotopessoa.png" className="fotopessoaperfil"></img>
-         
-   </div>
-            <div className='containernomeefuncao'>
+                <img src="/fotopessoa.webp" className="fotopessoaperfil"></img>
+                <strong>Benjamin Soares</strong>
+                <span>Programador</span>
+            </div>
+
+         </div> {/* containerprofileinfop */}
+
+            <div className='containerbotoesesvg'>
                 <div className='primeiralinha'> {/* Modo offline, botão e enviar cartão */}
                     
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6" >
@@ -21,7 +28,7 @@ function Profileinfo() {
 
                     <button className='SalvarnaAgendabutton'> Salvar na Agenda </button>
 
-                    <img src='/icons/credit-card.svg' className='icone-com-filtro'></img>
+                    <Creditcard className='babau'/>
                     
                 </div>
 
@@ -37,10 +44,26 @@ function Profileinfo() {
             <div className='Descricaomediop'>
 
             </div> {/* Descricaomediop */}
+            <div className='barracimadescricao'>
+
+            </div>
+
+            <span>Aluno do ensino medio técnico integrado no instituto federal do ceará - IFCE</span>
+
+            <span>Bolsista do Grupo de desenvolvimento em sistemas de telecomunicações e sistemas embarcados em ênfase em software - GDESTE/IFCE</span>
+
+            <div className='barrabaixodescricao'>
+
+            </div>
 
             </div> {/* Mediocardp */}
 
             <div className='Baixocardp'>
+             <button>
+                <img src='/icons/pix.svg' alt='Logo do Pix'></img>
+                <span>Pix</span>
+            </button>
+
             <button>
                 <img src='/icons/mail.svg' alt='Logo do Email'></img>
                 <span>Email</span>
@@ -49,6 +72,11 @@ function Profileinfo() {
              <button>
                 <img src='/icons/instagram.svg' alt='Logo do Instagram'></img>
                 <span>Instagram</span>
+            </button>
+
+             <button>
+                <img src='/icons/whatsapp.svg' alt='Logo do Whatsapp'></img>
+                <span>Whatsapp</span>
             </button>
 
 

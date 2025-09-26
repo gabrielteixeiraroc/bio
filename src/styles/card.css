@@ -1,25 +1,48 @@
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
 .containercard {
-    position: relative;
+    z-index: 1;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    width: 30vw;
-    margin: 0 auto;
+    min-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
 }
+
+
 
 .bordacard {
-    position: absolute;
-    z-index: 2;
-    border-radius: 5%;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
-    background: #121212;
-    height: 100vh;
-    width: 30vw;
+    width: 100%;
+    max-width: 400px;
+    background-color: #000000;
+    border-radius: 24px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); 
+    overflow: hidden; 
 }
 
+
+.cimacard {
+    background: linear-gradient(160deg, #000000, #000000);
+    min-height: 120px;
+    padding-bottom: 60px; 
+}
 
 .profileinfocard {
-  display: flex;
-  justify-content: center;
+    position: relative;
+    margin-top: -80px;
+    padding: 0 16px;
 }
+
+.baixocard {
+    padding: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #A0A0A0;
+    border-top: 1px solid #2a2a2a;
+} 

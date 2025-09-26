@@ -1,5 +1,4 @@
 import '../styles/card.css'
-import Navbar from './navbar';
 import Profileinfo from "./profileinfo";
 
 function Card() {

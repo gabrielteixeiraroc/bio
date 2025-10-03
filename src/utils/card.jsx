@@ -7,16 +7,11 @@ function Card() {
     <div className="containercard">
         <div className="bordacard">
 
-        <div className="cimacard">
 
         <div className="profileinfocard">
         <Profileinfo/>
         </div> {/* profiloinfocard */}
 
-        </div> {/* cimacard */}
-
-        <div className="baixocard">
-        </div> {/* baixocard */}
 
         </div> {/* bordacard */}
 

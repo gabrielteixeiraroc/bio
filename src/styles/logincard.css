@@ -2,34 +2,69 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50vh;
-    width: 50vw;
+    min-height: 100vh;
 }
 
 .bordacardlogin {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 50vh;
-    width: 50vw;
+    align-items: center;
+    padding: 40px;
+    background-color: #121212;
+    border-radius: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
 }
 
-.containerlogin form {
+.bordacardlogin form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
+    width: 100%;
+    gap: 20px;
 }
 
-.emaillogin, .senhalogin{
-    width: 20vw;
-    height: 3vh;
+.emaillogin, 
+.senhalogin {
+    width: 100%; 
+    padding: 14px; 
+    box-sizing: border-box;
     border: 2px solid #8b14f9;
-    border-radius: 9999px;
-    background-color: #121212;
+    border-radius: 10px;
+    background-color: #2a2a2a;
     outline: none;
     color: white;
+    font-size: 16px;
+    transition: border-color 0.2s;
 }
 
+.emaillogin:focus,
+.senhalogin:focus {
+    border-color: #c788ff;
+}
+
+.botaologin {
+    width: 100%;
+    padding: 14px;
+    background-color: #6a1b9a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.botaologin:hover {
+    background-color: #8e44ad;
+}
+
+.Ess {
+    background: none;
+    border: none;
+    color: #A0A0A0;
+    cursor: pointer;
+    text-decoration: underline;
+}

@@ -1,11 +1,11 @@
-.containercardlogin {
+.containercardregister {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
 }
 
-.bordacardlogin {
+.bordacardregister {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +17,7 @@
     max-width: 400px;
 }
 
-.bordacardlogin form {
+.bordacardregister form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@
     border-color: #00a0ba;
 }
 
-.botaologin {
+.botaoregister {
     width: 100%;
     padding: 14px;
     background-color: #00a0ba;
@@ -57,7 +57,7 @@
     transition: background-color 0.2s;
 }
 
-.botaologin:hover {
+.botaoregister:hover {
     background-color: #14213d;
 }
 

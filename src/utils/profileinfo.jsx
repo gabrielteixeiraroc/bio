@@ -60,7 +60,7 @@ function Profileinfo() {
                 </button>
                 </a>
 
-                <a href='' target='_blank' rel='noopenner noreferrer'>
+                <a href='https://maps.app.goo.gl/8HwSN6yCE74rZGkSA' target='_blank' rel='noopenner noreferrer'>
                 <button>
                     <img src='/icons/maps.svg' alt='Logo do Whatsapp'></img>
                     <span>Mapa</span>

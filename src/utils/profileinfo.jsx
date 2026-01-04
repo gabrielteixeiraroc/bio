@@ -29,7 +29,7 @@ function Profileinfo() {
             <div className='containerprofileinfop'>
 
             <div className="fotoprofileinfo">
-                <img src="/Foto-de-profile.webp" className="fotopessoaperfil"></img>
+                <img src="Foto-de-profile.webp" className="fotopessoaperfil"></img>
                 <strong>{perfil.nome}</strong>
                 <span>Designer</span>
             </div>

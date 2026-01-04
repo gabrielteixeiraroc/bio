@@ -66,21 +66,21 @@ function Profileinfo() {
 
                 <a href={`mailto:${perfil.email}`}>
                 <button>
-                    <img src='/icons/mail.svg' alt='Logo do Email'></img>
+                    <img src='icons/mail.svg' alt='Logo do Email'></img>
                     <span>Gmail</span>
                 </button>
                 </a>
 
                 <a href='https://wa.me/5585999957393' target='_blank' rel='noopenner noreferrer'>
                 <button>
-                    <img src='/icons/whatsapp.svg' alt='Logo do Whatsapp'></img>
+                    <img src='icons/whatsapp.svg' alt='Logo do Whatsapp'></img>
                     <span>Whatsapp</span>
                 </button>
                 </a>
 
                 <a href='https://maps.app.goo.gl/8HwSN6yCE74rZGkSA' target='_blank' rel='noopenner noreferrer'>
                 <button>
-                    <img src='/icons/maps.svg' alt='Logo do Whatsapp'></img>
+                    <img src='icons/maps.svg' alt='Logo do Whatsapp'></img>
                     <span>Mapa</span>
                 </button>
                 </a>
@@ -113,7 +113,7 @@ function Profileinfo() {
             <div className='Baixocardp'>
             {/* <a href='' target='_blank' rel='noopener noreferrer'>
              <button>
-                <img src='/icons/pix.svg' alt='Logo do Pix'></img>
+                <img src='icons/pix.svg' alt='Logo do Pix'></img>
                 <span>Pix</span>
             </button>
             </a> */}
@@ -121,14 +121,14 @@ function Profileinfo() {
 
             <a href={`mailto:${perfil.email}`} target='_blank' rel='noopener noreferrer'>
             <button>
-                <img src='/icons/mail.svg' alt='Logo do Email'></img>
+                <img src='icons/mail.svg' alt='Logo do Email'></img>
                 <span>Email</span>
             </button>
             </a>
 
             <a href='https://www.instagram.com/gezao.design' target='_blank' rel='noopener noreferrer'>
              <button>
-                <img src='/icons/instagram.svg' alt='Logo do Instagram'></img>
+                <img src='icons/instagram.svg' alt='Logo do Instagram'></img>
                 <span>Instagram</span>
             </button>
             </a>
@@ -136,7 +136,7 @@ function Profileinfo() {
 
             <a href='https://wa.me/5585999957393' target='_blank' rel='noopener noreferrer'>
              <button>
-                <img src='/icons/whatsapp.svg' alt='Logo do Whatsapp'></img>
+                <img src='icons/whatsapp.svg' alt='Logo do Whatsapp'></img>
                 <span>Whatsapp</span>
             </button>
             </a>

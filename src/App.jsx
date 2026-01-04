@@ -8,7 +8,7 @@ import Profileinfo from './utils/profileinfo.jsx';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/bio">
         <Routes>
         <Route path='/p/:username' element= {
             <Card>
